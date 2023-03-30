@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pow_service:
+    container_name: test_project
+    build: .
+    ports:
+      - "8888:8888"
